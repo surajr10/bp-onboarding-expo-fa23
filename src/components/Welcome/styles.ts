@@ -1,14 +1,14 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  signInContainer: {
+  welcomeContainer: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
     height: 100,
   },
-  signInText: {
+  welcomeText: {
     fontSize: 24,
     fontWeight: '600',
     marginBottom: 40,
