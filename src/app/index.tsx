@@ -1,10 +1,12 @@
+import { View, Text } from 'react-native';
+
 export default function Home() {
   
   return (
-    <div>
-        <h1>
+    <View>
+        <Text>
             Welcome to Expo!
-        </h1>
-    </div>
+        </Text>
+    </View>
   )
 }
