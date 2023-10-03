@@ -1,10 +1,10 @@
 import styles from './styles'
-import { View } from 'react-native'
+import { View, Text } from 'react-native'
 
 const SignIn = () => {
     return (
         <View style={styles.signInContainer}>
-            <h1 style={styles.signInText}>Sign In</h1>
+            <Text style={styles.signInText}>Sign In</Text>
         </View>
     )
 }
